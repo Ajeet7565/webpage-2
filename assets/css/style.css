@@ -45,14 +45,14 @@ header h1, h3{
 nav{
 width: 100%;
 height: 30px;
-display: flex;
+
 padding: 0px 100px;
 background-color: #467a46;
 }
 nav ul li{
 font-weight: 700;
 list-style: none;
-display: inline-block;
+display:inline-block;
 line-height:30px;
 margin-right: 45px;
 }
@@ -152,6 +152,7 @@ footer ul li a:hover{
 /* Footer Section End */
 
 /* Mediaquery Section Start */
+
 @media screen and (max-width:991px) {
     .tophead{
        padding: 5px 10px;
@@ -164,9 +165,8 @@ header{
     padding: 0px 10px;
 }
 nav{
-    padding: 0px 10px;
-    text-align: center;
-}
+    padding: 0px 10px;}
+   
 section{
     padding: 0px 10px ;
 }
@@ -180,6 +180,7 @@ footer{
 }
 
 @media screen and (max-width:767px){
+
 section main, section aside{
     float: none;
    width: 100%;
@@ -187,27 +188,46 @@ section main, section aside{
 section main{
     margin-bottom: 10px;
 }
+section main .line{
+    height: 108px;
+}
+
 section aside ul li{
    padding-left: 0px;
    text-align: center;
    font-size: 25px;
 }
 section aside ul{
-    margin-bottom: 5px;
+    margin-bottom: 10px;
+   
 }
 footer{
    margin-bottom: 10px;
+  
 }
 @media screen and (max-width:576px){
-    nav ul li{
-        margin-right: 76px;
+     nav ul li{
+        margin-right: 30px;
+        text-justify: auto;
+        
     }
+    nav{
+        padding: 0px 10px;
+        text-align: center;
+            }
+    section main .line{
+        margin-top: 15px;
+        height:125px;
+        }
        
     header h1,h3{
 display: block;
 line-height: normal;
 text-align: center;
-padding-bottom: 30px;
+
+    }
+    header h3{
+      padding-bottom: 10px;
     }
 }
 footer{
@@ -226,14 +246,34 @@ footer .copy h4{
     font-size: 25px;
 }
 }
-@media screen and (max-width:576px){
-    nav ul li{
-        margin-right: 50px;
+
+@media screen and (max-width:434px){
+ 
+    nav{
+        padding: 0px 30px;
     }
-    section main .line{
-        margin-top: 15px;
-        height:100px;
-        }
+}
+@media screen and (max-width:425px){
+    nav{
+        padding: 0px 30px;
+    }
+    nav ul li{
+        margin-right:15px ;
+    }
+}
+
+@media screen and (max-width:375px){
+    nav ul li{
+        display:flex;
+       
+    }
+    nav ul li a{
+        text-align: center;
+}
+nav{
+padding: 0px 150px;
+height: auto;
+}
 }
 /* Mediaquery Section End */
    
