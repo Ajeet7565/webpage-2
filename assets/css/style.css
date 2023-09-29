@@ -150,5 +150,91 @@ footer ul li a:hover{
    transition: scale(1.2);
 }
 /* Footer Section End */
+
+/* Mediaquery Section Start */
+@media screen and (max-width:991px) {
+    .tophead{
+       padding: 5px 10px;
+       height: auto;      
+}
+.tophead ul li{
+    display: block;
+}
+header{
+    padding: 0px 10px;
+}
+nav{
+    padding: 0px 10px;
+    text-align: center;
+}
+section{
+    padding: 0px 10px ;
+}
+section main .line{
+margin-top: 15px;
+height:100px;
+}
+footer{
+    padding: 10px 10px;
+}
+}
+
+@media screen and (max-width:767px){
+section main, section aside{
+    float: none;
+   width: 100%;
+}
+section main{
+    margin-bottom: 10px;
+}
+section aside ul li{
+   padding-left: 0px;
+   text-align: center;
+   font-size: 25px;
+}
+section aside ul{
+    margin-bottom: 5px;
+}
+footer{
+   margin-bottom: 10px;
+}
+@media screen and (max-width:576px){
+    nav ul li{
+        margin-right: 76px;
+    }
+       
+    header h1,h3{
+display: block;
+line-height: normal;
+text-align: center;
+padding-bottom: 30px;
+    }
+}
+footer{
+    display: block;
+    height: auto;
+    text-align: center;
+}
+footer .links h4{
+font-size: 25px;
+
+}
+footer .follow h4{
+    font-size: 25px;
+}
+footer .copy h4{
+    font-size: 25px;
+}
+}
+@media screen and (max-width:576px){
+    nav ul li{
+        margin-right: 50px;
+    }
+    section main .line{
+        margin-top: 15px;
+        height:100px;
+        }
+}
+/* Mediaquery Section End */
    
     
