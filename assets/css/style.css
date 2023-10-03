@@ -260,6 +260,10 @@ footer .copy h4{
     nav ul li{
         margin-right:15px ;
     }
+     section main .line{
+        margin-top: 10px;
+        height:180px;
+        }
 }
 
 @media screen and (max-width:375px){
@@ -271,9 +275,24 @@ footer .copy h4{
         text-align: center;
 }
 nav{
-padding: 0px 150px;
+padding: 0px 120px;
 height: auto;
 }
+section main .line{
+    margin-top: 10px;
+    height:220px;
+    }
+}
+@media screen and (max-width:320px)
+{
+    nav{
+        padding: 0px 120px;
+        height: auto;
+        }
+    section main .line{
+        margin-top: 10px;
+        height:250px;
+        }
 }
 /* Mediaquery Section End */
    
